@@ -1,0 +1,7 @@
+idi-stl/
+
+.env
+google_config.py
+google_client_secret.json
+
+__pycache__
