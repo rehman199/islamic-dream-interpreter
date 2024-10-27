@@ -18,6 +18,11 @@ def response_generator(prompt):
     return di.generate_answer(prompt)
 
 
+st.set_page_config(
+    page_title="Islamic Dream Interpretation",
+    page_icon="🌙",
+)
+
 st.title("Islamic Dream Interpreter")
 
 st.caption('Welcome to our Islamic Dream Interpretation app! This application draws from the respected work of Imam Ibn Sirin’s Dictionary of Dreams, providing you with insights into dream meanings based on traditional Islamic perspectives. Simply describe your dream, and our tool will retrieve relevant interpretations, helping you explore the possible symbolism and spiritual meanings in light of Islamic teachings.')
