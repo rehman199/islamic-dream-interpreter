@@ -21,7 +21,6 @@ def response_generator(prompt):
 st.title("Islamic Dream Interpreter")
 
 st.caption('Welcome to our Islamic Dream Interpretation app! This application draws from the respected work of Imam Ibn Sirin’s Dictionary of Dreams, providing you with insights into dream meanings based on traditional Islamic perspectives. Simply describe your dream, and our tool will retrieve relevant interpretations, helping you explore the possible symbolism and spiritual meanings in light of Islamic teachings.')
-st.caption("By Rehman Aziz")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
